@@ -1,4 +1,5 @@
 import React from 'react'
+import Categories from './components/Categories'
 import Header from './components/Header'
 
 function App() {
@@ -8,16 +9,7 @@ function App() {
   <div className="content">
     <div className="container">
       <div className="content__top">
-        <div className="categories">
-          <ul>
-            <li className="active">Все</li>
-            <li>Мясные</li>
-            <li>Вегетарианская</li>
-            <li>Гриль</li>
-            <li>Острые</li>
-            <li>Закрытые</li>
-          </ul>
-        </div>
+        <Categories/>
         <div className="sort">
           <div className="sort__label">
             <svg width={10} height={6} viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
